@@ -1,0 +1,12 @@
+body {
+  background: #FFFFFF url("/images/bg-white.png") repeat;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+nav {
+  background: #FFFFFF url("/images/bg.png") repeat;
+}
+
+a {
+  color: #00B7FF;
+}
