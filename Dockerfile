@@ -8,4 +8,4 @@ ADD . /local/app
 
 RUN npm install
 
-ENTRYPOINT ["bin/www"]
+ENTRYPOINT ["node", "bin/www"]
