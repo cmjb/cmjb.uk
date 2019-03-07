@@ -1,6 +1,6 @@
 FROM node:latest
 
-EXPOSE 3000
+EXPOSE 8080
 
 WORKDIR /local/app
 
@@ -8,4 +8,4 @@ ADD . /local/app
 
 RUN npm install
 
-ENTRYPOINT ["node", "bin/www"]
+ENTRYPOINT ["npm", "start"]
